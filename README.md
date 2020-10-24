@@ -1,6 +1,10 @@
 # Projet-Tuteure-S1
 Projet Tuteuré du Semestre 1, Tristan DURET, Léo CARREZ, Laurent NGETH, Henry MONT
 
+## Lien(s) utile(s) 
+
+- Heroku app : https://projet-tutore-bourse.herokuapp.com/
+
 # Utiliser Github et Heroku
 
 ## Github :
@@ -78,10 +82,6 @@ Installation snap :
 $ sudo snap install --classic heroku
 ```
 
-Autres installations :
-
-https://devcenter.heroku.com/articles/heroku-cli#download-and-install
-
 ### 	Configuration : 
 
 Connexion (se connecter ensuite depuis le navigateur) :
@@ -96,7 +96,7 @@ Création d'une nouvelle app Heroku :
 
 ```term
 $ cd "chemin de votre répertoire local"
-$ heroku create
+$ heroku create [name-of-your-app]
 ```
 
 Vérification qu'un répertoire distant Heroku a bien été créé :
