@@ -24,7 +24,7 @@
             <a class="nav-link" href="#">La technologie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="www.pornhub.com">Contraintes Juridiques</a>
+            <a class="nav-link" href="#">Contraintes Juridiques</a>
           </li>
         </ul>
         <a class="btn btn-outline-success" href="#">Contact</a>
