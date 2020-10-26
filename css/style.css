@@ -1,4 +1,13 @@
-body{
-  width: 100vw;
-  height: 100vh;
+.navbar {
+  background: rgba(0,0,0,0.4);
+}
+
+.headerbg{
+  height: 200px;
+  background-color: darkblue;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
 }
