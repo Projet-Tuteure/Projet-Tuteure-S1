@@ -1,0 +1,4 @@
+Type,"Host name","Current Value","Required value"
+TXT,projet-tutore-bourse.herokuapp.com,"Not Found","v=spf1 include:1239351fa.ppspf.net ~all"
+TXT,pepipost._domainkey.projet-tutore-bourse.herokuapp.com,"Not Found","k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLMMExLiGRqzJkNdNIjUnLX7JL0wjbwwENDoXgJIBisIsrofLPetZM401dioNU8k/Qp6nIyi5oioyZh+1jDXoCPFa4nLGRNj3Nz785N7b76aTtHmy2wTgR2LFS/Yw5/iyzhyrWsIyINyyHs77EoCwSOQjJfhFxb6SmifLN51IIvwIDAQAB"
+CNAME,delivery,"Not Found",lnk.pepipost.net
