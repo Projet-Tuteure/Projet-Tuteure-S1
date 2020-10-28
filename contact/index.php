@@ -97,7 +97,7 @@ if($form_filed){
           <?php echo $debugmsg;?>
         </div>
         <?php } ?>
-        <form action="" method="post">
+        <form action="#" method="post">
           <div class="form-group">
             <label>Sujet</label>
             <input type="text" class="form-control" placeholder="Sujet" name="mailsubject" required="">
