@@ -1,43 +1,63 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require './vendor/autoload.php';
+require '../vendor/autoload.php';
 
-$mail = new PHPMailer(true);
+$form_filed = isset($_POST['mailbody']) && isset($_POST['mailsubject']);
+if($form_filed){
 
-$mail->isSMTP();
+    $mail = new PHPMailer(true);
 
-$mail->SMTPAuth = true;
+    $mail->isSMTP();
 
-$mail->Host = 'smtp.mailtrap.io';
+    $mail->SMTPAuth = true;
 
-$mail->Username = '81528f312ff2d2';
+    $mail->Host = 'smtp.mailtrap.io';
 
-$mail->Password = '5035f518c6c1e5';
+    $mail->Username = '81528f312ff2d2';
 
-$mail->Port = 2525;
+    $mail->Password = '5035f518c6c1e5';
 
-$mail->SMTPSecure = 'tls';
+    $mail->Port = 2525;
 
-$mail->setFrom('info@mailtrap.io', 'Mailtrap');
-$mail->addReplyTo('info@mailtrap.io', 'Mailtrap');
-$mail->addAddress('recipient1@mailtrap.io', 'Tim'); 
-$mail->addCC('cc1@example.com', 'Elena');
-$mail->addBCC('bcc1@example.com', 'Alex');
+    $mail->SMTPSecure = 'tls';
 
-$mail->Subject = 'Test Email via Mailtrap SMTP using PHPMailer';
+    $mail->setFrom('info@mailtrap.io', 'Mailtrap');
 
-$mail->isHTML(true);
+    $mail->addReplyTo('info@mailtrap.io', 'Mailtrap');
 
-$mailContent = "<h1>Send HTML Email using SMTP in PHP</h1>
-    <p>This is a test email I’m sending using SMTP mail server with PHPMailer.</p>";
-$mail->Body = $mailContent;
+    $mail->addAddress('recipient1@mailtrap.io', 'Tim');
 
-if($mail->send()){
-    echo 'Message has been sent';
-}else{
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
+    $mail->isHTML(true);
+
+    $mail->Subject = $_POST['mailsubject'];
+
+    $mail->Body = $_POST['mailbody'];
+
+    if($mail->send()){
+        $debugmsg = "Message envoyé !";
+    }else{
+        $debugmsg = "Erreur interne : Impossible d'envoyer le message...";
+    }
 }
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact form</title>
+</head>
+<body>
+    <?php if(isset($debugmsg)){?>
+        <div class="contactdebug"> <?php echo $debugmsg; ?></div>
+    <?php } ?>
+    <form action="" method="post">
+        <input type="text" name="mailsubject" placeholder="Subject">
+        <input type="text" name="mailbody" placeholder="Mail Body">
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
