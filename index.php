@@ -29,7 +29,7 @@
             <a class="nav-link" href="#">Contraintes Juridiques</a>
           </li>
         </ul>
-        <a class="btn btn-outline-success" href="#">Contact</a>
+        <a class="btn btn-outline-success" href="/contact/">Contact</a>
       </div>
     </nav>
 
