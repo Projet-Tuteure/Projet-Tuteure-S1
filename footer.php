@@ -1,5 +1,5 @@
 
-    <div style="height: 250px; overflow: hidden; margin-top: -75px; position :absolute;left:0px;right:0px;bottom: 0px;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C177.48,63.64 301.63,33.05 513.26,-0.48 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #000B76;"></path></svg></div>
+    <div style="height: 250px; overflow: hidden; margin-top: -75px;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C177.48,63.64 301.63,33.05 513.26,-0.48 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #000B76;"></path></svg></div>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
