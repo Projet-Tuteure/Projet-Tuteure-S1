@@ -2,7 +2,7 @@
 
     <h1 class="w-auto mx-auto mb-5 text-white text-center" style="margin-top: -200px">Les enjeux de la Bourse</h1>
 
-    <div class="card w-75 mx-auto mb-3">
+    <div class="card w-75 mx-auto mb-3 card_content">
       <div class="card-body">
         <h3 class="card-title">Mais la bourse, qu'est-ce que c'est ?</h3>
         <h4 class="card-subtitle mb-2 text-muted">Et d'où ça vient ??</h4>
@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="card w-75 mx-auto mb-3">
+    <div class="card w-75 mx-auto mb-3 card_content">
         <div class="card-horizontal">
             <div class="img-square-wrapper">
                 <img class="image_accueil" src="http://via.placeholder.com/300x180" alt="Card image cap">
@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <div class="card w-75 mx-auto mb-3">
+    <div class="card w-75 mx-auto mb-3 card_content">
         <div class="card-horizontal">
             <div class="img-square-wrapper">
                 <img class="image_accueil" src="http://via.placeholder.com/300x180" alt="Card image cap">
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <div class="card w-75 mx-auto mb-3">
+    <div class="card w-75 mx-auto mb-3 card_content">
         <div class="card-horizontal">
             <div class="img-square-wrapper ">
                 <img class="image_accueil" src="http://via.placeholder.com/300x180" alt="Card image cap">

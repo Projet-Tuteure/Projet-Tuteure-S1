@@ -12,6 +12,10 @@
   flex: 1 1 auto;
 }
 
+.card_content{
+  border: 2px lightgray solid;
+}
+
 @media screen and (min-width: 992px) {
   .image_accueil {
     display: none;
