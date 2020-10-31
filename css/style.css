@@ -11,3 +11,9 @@
   display: flex;
   flex: 1 1 auto;
 }
+
+@media screen and (min-width: 992px) {
+  .image_accueil {
+    display: none;
+  }
+}
