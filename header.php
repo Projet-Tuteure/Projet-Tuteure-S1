@@ -29,6 +29,6 @@
             <a class="nav-link" href="#">Contraintes Juridiques</a>
           </li>
         </ul>
-        <a class="btn btn-outline-success" href="contact.php">Contact</a>
+        <a class="btn btn-outline-light" href="contact.php">Contact</a>
       </div>
     </nav>
