@@ -7,17 +7,56 @@
   background-color: darkblue;
 }
 
-.card-horizontal {
-  display: flex;
-  flex: 1 1 auto;
-}
-
 .card_content{
   border: 2px lightgray solid;
 }
 
-@media screen and (min-width: 992px) {
-  .image_accueil {
-    display: none;
-  }
+#image1_accueil{
+  background-image: url(http://via.placeholder.com/300x180);
+}
+
+#image2_accueil{
+  background-image: url(http://via.placeholder.com/300x180);
+}
+
+#image3_accueil{
+  background-image: url(http://via.placeholder.com/300x180);
+}
+
+.card_image{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card_text{
+  padding: 20px;
+}
+
+/* img cards */
+@media only screen and (min-width: 801px) {
+ .card-horizontal {
+   display: flex;
+   flex: 1 1 auto;
+ }
+
+ .card_image{
+   width: 50%;
+ }
+
+ .card_text{
+   height: 100%;
+   width: 50%;
+ }
+}
+@media only screen and (max-width: 800px) {
+ .card_image{
+   height: 200px;
+   width: 100%;
+ }
+
+ .card_text{
+   height: auto;
+   width: 100%;
+ }
 }
