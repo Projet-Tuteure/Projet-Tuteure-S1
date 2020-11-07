@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="h-100">
-    <div style="height: 300px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-18.34,153.45 C154.91,117.92 326.46,117.92 520.03,152.45 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #000B76;"></path></svg></div>
-
     <!-- barre de navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark">
       <a class="text-white mr-3" href="index.php">Accueil<span class="sr-only">(current)</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,3 +32,4 @@
         <a class="btn btn-outline-light" href="contact.php">Contact</a>
       </div>
     </nav>
+    <div style="height: 250px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-18.34,153.45 C154.91,117.92 326.46,117.92 520.03,152.45 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #000B76;"></path></svg></div>
