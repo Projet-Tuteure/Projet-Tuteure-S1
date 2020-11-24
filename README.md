@@ -1,9 +1,19 @@
-#H1 Projet Tuteuré
+# Projet Tuteuré
 
-##H2 Site inspiration
+## Conception du site
 
-##H2 Diagramme de navigation
+### La structure du site :
 
-##H2 Zoning
+### Choix des couleurs :
 
-##H2 Sample du site
+## Diagramme de navigation
+![alt text](https://github.com/Projet-Tuteure/Projet-Tuteure-S1/blob/master/maquettes/diagramme_navigation/diagramme_nav.png "Diagramme de navigation")
+
+## Zoning
+*Accueil :* 
+![alt text](https://github.com/Projet-Tuteure/Projet-Tuteure-S1/blob/master/maquettes/zoning/accueil.png "Accueil")
+
+*Page 1 à 3 :*
+![alt text](https://github.com/Projet-Tuteure/Projet-Tuteure-S1/blob/master/maquettes/zoning/page1-3.png "Page 1 à 3")
+
+## Sample du site
