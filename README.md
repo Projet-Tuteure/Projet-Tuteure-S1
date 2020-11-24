@@ -5,10 +5,10 @@
 ## Diagramme de navigation
 
 ## Zoning
-Accueil : 
+*Accueil :* 
 ![alt text](https://github.com/Projet-Tuteure/Projet-Tuteure-S1/blob/master/maquettes/zoning/accueil.png "Accueil")
 
-Page 1 à 3 :
+*Page 1 à 3 :*
 ![alt text](https://github.com/Projet-Tuteure/Projet-Tuteure-S1/blob/master/maquettes/zoning/page1-3.png "Page 1 à 3")
 
 ## Sample du site
