@@ -1,9 +1,9 @@
-#H1 Projet Tuteuré
+#Projet Tuteuré
 
-##H2 Site inspiration
+##Site inspiration
 
-##H2 Diagramme de navigation
+##Diagramme de navigation
 
-##H2 Zoning
+##Zoning
 
-##H2 Sample du site
+##Sample du site
