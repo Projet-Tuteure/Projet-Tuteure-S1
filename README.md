@@ -3,6 +3,7 @@
 ## Conception du site
 
 ## Diagramme de navigation
+![alt text](https://github.com/Projet-Tuteure/Projet-Tuteure-S1/blob/master/maquettes/diagramme_navigation/diagramme_nav.png "Diagramme de navigation)
 
 ## Zoning
 *Accueil :* 
