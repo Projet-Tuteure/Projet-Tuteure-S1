@@ -1,6 +1,6 @@
 # Projet Tuteuré
 
-## Site inspiration
+## Choix du site
 
 ## Diagramme de navigation
 
