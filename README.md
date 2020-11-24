@@ -1,6 +1,6 @@
 # Projet Tuteuré
 
-## Choix du site
+## Conception du site
 
 ## Diagramme de navigation
 
