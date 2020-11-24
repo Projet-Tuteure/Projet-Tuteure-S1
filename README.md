@@ -1,9 +1,9 @@
-#Projet Tuteuré
+# Projet Tuteuré
 
-##Site inspiration
+## Site inspiration
 
-##Diagramme de navigation
+## Diagramme de navigation
 
-##Zoning
+## Zoning
 
-##Sample du site
+## Sample du site
