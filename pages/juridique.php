@@ -16,7 +16,7 @@
         <p class="card-text">Les entreprises se doivent de suivre une règle majeur lorsqu'elles sont cotées en bourse. On appelle cela une obligation de publication d'information. Elles doivent donc rendre publique certaines informations pour que les investisseurs puissent prendre la décision d'investir ou non. Les entreprises ne respectant pas cette loi sont alors sanctionnées par les autorités des marchés qui diffusent une liste des entreprises "retardataires", puis si les informations ne sont toujours pas diffusées, des poursuites judiciaires sont engagées pour obtenir une injonction de publication sous abstreinte.</p>
 
         <h3 class="card-title">Taxes et charges liées à la bourse</h3>
-
+        <h4 class="card-subtitle mb-2 text-muted">Les placements d'ordres</h4>
         <p class="card-text">Le placement d'ordre implique des frais. Il en existe plusieurs. Les plus connus sont les frais de courtages qui sont soit une valeur fixe, soit le pourcentage d'un montant investi. Il existe néanmoins des frais moins connus comme la Taxe sur les Transactions Financières (TTF). Elle a pour but de freiner la spéculation et encourage l'investissement à long terme. Elle ne s'applique que sur les achats d'actions de société dont le siège social est situé en France et dont la capitalisation boursière est supérieur à 1 milliard d'euros.</p>
         <h4 class="card-subtitle mb-2 text-muted">Déclaration</h4>
         <p class="card-text">La cotisation subsidiaire maladie est une taxe apparue en 2017 qui vise les rentiers. Sa mise en place vise les personnes dont leurs revenus liés à l'activité professionnelle sont inférieur à 10% et dont les autres revenus sont supérieur à 25%. Les plus-values sont également soumises au prélèvement forfaitaire unique.</p>
