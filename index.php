@@ -20,7 +20,7 @@
             <div class="card_text">
                 <h4>L'aspect économique de la Bourse</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <form action="economie.php" style="display: inline;">
+                <form action="pages/economie.php" style="display: inline;">
                   <button type="button" class="btn btn-primary">En savoir plus</button>
                 </form>
             </div>
@@ -33,7 +33,7 @@
             <div class="card_text">
                 <h4>Les moyens techniques mis en oeuvre</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <form action="fonctionnel.php" style="display: inline;">
+                <form action="pages/fonctionnel.php" style="display: inline;">
                   <button type="button" class="btn btn-primary">En savoir plus</button>
                 </form>
             </div>
@@ -46,7 +46,7 @@
             <div class="card_text">
                 <h4>Les contraintes juridiques de la Bourse</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <form action="juridique.php" style="display: inline;">
+                <form action="pages/juridique.php" style="display: inline;">
                   <button type="button" class="btn btn-primary">En savoir plus</button>
                 </form>
             </div>
