@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+<?php include "pages/header.php"; ?>
 
     <h1 class="w-auto mx-auto mb-5 text-white text-center" style="margin-top: -200px">Les enjeux de la Bourse</h1>
 
@@ -61,4 +61,4 @@
       </div>
     </div>
 
-<?php include "footer.php"; ?>
+<?php include "pages/footer.php"; ?>
