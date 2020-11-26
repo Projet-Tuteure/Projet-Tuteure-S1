@@ -9,5 +9,6 @@
                 <p class="card-text">Les actions sont des titres de propriété d'une société émettrice qui sont vendus sur le marché. Plusieurs droits y sont associés, notamment le droit de participer aux assemblées générales de l'entreprise ou encore de percevoir une partie des bénéfices de celle-ci proportionnellement à l'investissement effectué. Les obligations (un autre type de titre de propriété) sont des prêts d'argent à une entreprise plutôt qu'un investissement. L'acheteur d'une obligation se verra verser annuellement un pourcentage de l'argent prêté (avec les intérêts).</p>
                 <p class="card-text">Au fil des années, des produits dérivés ont été créés. Ce sont des instruments financiers qui dépendent de la valeur de plusieurs titres. Par exemple, les options permettent de vendre ou d'acheter des titres à un prix prédéterminé. Les options sont un produit dérivé parmis beaucoup d'autres. </p>
             </div>
+                <h4 class="card-subtitle mb-2 text-muted">Investisseurs historiques</h4>
         </div>
 <?php include "footer.php"; ?>
