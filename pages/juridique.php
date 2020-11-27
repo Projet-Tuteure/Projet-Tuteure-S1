@@ -1,5 +1,3 @@
-<?php include "header.php"; ?>
-
 <h1 class="w-auto mx-auto mb-5 text-white text-center" style="margin-top: -200px">Les contraintes juridiques</h1>
 
 <!-- à copier-coller pour chaque partie -->
@@ -38,5 +36,3 @@
         <p class="card-text">Les options binaires visent les investisseurs en herbe. On appelle investisseur en herbe les investisseurs voulant faire beaucoup d'argent rapidement avec peu de capital. Ce genre de contrat peuvent néanmoins être intéressants pour les traders experimentés qui font du scalping (investissement sur de courtes échéances de quelques jours ou de quelques semaines) ou du day trading (investissement sur l'espace d'une journée). Ceux ci peuvent avoir besoin d'effet de levie car il misent sur les mouvements légers du marché. Leurs investissement sont néanmois calculés et reposent sur des analyses du marché.</p>
     </div>
 </div>
-
-<?php include "footer.php"; ?>

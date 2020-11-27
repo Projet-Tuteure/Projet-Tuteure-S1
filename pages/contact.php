@@ -44,8 +44,6 @@ if($form_filed){
   }
 }
 
-include "header.php";
-
 ?>
 
     <h1 class="w-auto mx-auto mb-5 text-white text-center" style="margin-top: -200px">Contact</h1>
@@ -75,5 +73,3 @@ include "header.php";
         </form>
       </div>
     </div>
-    
-<?php include "footer.php"; ?>

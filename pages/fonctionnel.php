@@ -1,5 +1,3 @@
-<?php include "header.php"; ?>
-
     <h1 class="w-auto mx-auto mb-5 text-white text-center" style="margin-top: -200px">Le fonctionnement technique de la bourse</h1>
 
     <!-- à copier-coller pour chaque partie -->
@@ -192,6 +190,3 @@
             <p class="card-text">Dans une recherche d’un investissement toujours meilleur et toujours plus rentable, les sociétés de Bourses ont développé un nouvel indice, ou plutôt un produit financier qui réplique les indices boursiers (groupe d'actions utilisé pour évaluer un secteur) et qui est censé permettre de limiter les pertes en cas de marché baissier et de bénéficier plus rapidement des hausses en cas de marché haussier. Cet indice miraculeux censé battre les performances du marché est créé de toute pièce. C’est ce que l’on appelle la gestion Smart Beta.</p>
         </div>
     </div>
-
-
-<?php include "footer.php"; ?>

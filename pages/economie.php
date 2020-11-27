@@ -1,4 +1,3 @@
-<?php include "header.php"; ?>
         <h1 class="w-auto mx-auto mb-5 text-white text-center" style="margin-top: -200px">L'aspect économique de la Bourse</h1>
 
         <div class="card w-75 mx-auto mb-3">
@@ -32,9 +31,8 @@
 		<h4 class="card-subtitle mb-2 text-muted">L'apparition de bulles spéculative</h4>
 		<p>Une <strong>bulle spéculative</strong> est un phénomène économique qui désigne un investissement collectif et démesuré et souvent irrationel en un produit, faisant augmenter son cours considérablement. Un bon exemple de bulle spéculative est le bitcoin puisqu'en moins d'un ans la valeur du bitcoin est passé de 3 centimes à environ 19 000 euros avant de s'écrouler: On parle d'explosion de la bulle.</p>
 		<p>On voit donc avec l'apparition de bulle spéculative, une apparition d'investissements pharamineux juste avant une explosion de bulle. On peut par exemple citer le cas de Jérôme Keriviel, un investisseur de la société générale. Il leur à fait perdre près de 4 milliard d'euros en 2008 en faisant des investissement risqués.</p>
-		
-		
-		
+
+
+
             </div>
         </div>
-<?php include "footer.php"; ?>

@@ -1,75 +1,70 @@
-<?php include "pages/header.php"; ?>
+<?php
+if (!isset($_GET["path"])) {
+  $_GET["path"] = "pages/accueil.php";
+}
+?>
 
-    <h1 class="w-auto mx-auto mb-5 text-white text-center" style="margin-top: -200px">Les enjeux de la Bourse</h1>
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <title>La Bourse</title>
 
-    <div class="card w-75 mx-auto mb-3 card_content">
-      <div class="card-body">
-        <h3 class="card-title">Mais la bourse, qu'est-ce que c'est ?</h3>
-        <h4 class="card-subtitle mb-2 text-muted">Un moyen pour financer les entreprises</h4>
-        <p class="card-text">La Bourse est un marché financier, c'est-à-dire un lieu où l'on échange des titres de sociétés. Mais plus prosaïquement, la Bourse est un endroit où les entreprises qui ont besoin de financement pour investir et croître, font appel public à l'épargne, donc vendent leurs titres afin de se financer sans passer par l'emprunt bancaire.</p>
-        <p>On y trouve ainsi des investisseurs particuliers, des entreprises, des banques et même des États qui ont des capitaux en excès et qui souhaitent soutenir voire investir dans des projets, des entreprises ou des États. De l’autre côté, on retrouve les entreprises, les banques ou États ayant besoin de fonds d’une taille telle que la participation de plusieurs acteurs est nécessaire.</p>
-        <h4 class="card-subtitle mb-2 text-muted">Mais aussi un outil de spéculation</h4>
-        <p>Toutefois, face à l’émergence internationale du marché boursier, les acteurs financiers voient la bourse comme une opportunité pour s’enrichir de manière rapide et démesurée. Certains agents économiques perçoivent le marché boursier comme un jeu dans lequel ils peuvent « parier » pour ou contre la hausse du marché. Ils espèrent ainsi générer de forts revenus en contrepartie d'une opération très risquée, c’est ce qu’on appelle la « spéculation ».</p>
+     <meta content='initial-scale=1.0, width=device-width' name='viewport'>
+
+    <!-- Feuilles de styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="h-100">
+    <!-- barre de navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="text-white mr-3" href="index.php?path=pages/accueil.php">Accueil<span class="sr-only">(current)</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?path=pages/economie.php">L'économie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?path=pages/fonctionnel.php">La technologie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?path=pages/juridique.php">Contraintes Juridiques</a>
+          </li>
+        </ul>
+        <a class="btn btn-outline-light" href="index.php?path=pages/contact.php">Contact</a>
       </div>
-    </div>
+    </nav>
+    <div style="height: 250px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-18.34,153.45 C154.91,117.92 326.46,117.92 520.03,152.45 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #007bff;"></path></svg></div>
 
-    <div class="card w-75 mx-auto mb-3 card_content">
-      <div class="card-body">
-        <h3 class="card-title">Et surtout d'où ça vient ? </h3>
-        <h4 class="card-subtitle mb-2 text-muted">Un petit point historique.</h4>
-        <div class="text_image">
-          <p class="card-text">Historiquement, les activités de courtage existent depuis l'apparition des courtiers de change en France au XIIe siècle. Ils étaient chargés de contrôler et réguler les dettes des communautés agricoles pour le compte des banques. C’est en 1409 à Bruges (Pays-bas), que la première Bourse physique voit le jour et s’institutionnalise, jusqu’à devenir la première place boursière du monde. Mais, malgré l’expansion et l’omniprésence du marché boursier, on se méfie toujours des retombées économiques d’une chute de la bourse. On garde particulièrement en mémoire, la période de 1637, où les dangers de la bourse furent exposés, avec l’explosion de la première bulle spéculative (cf. I.3.a.) de la tulipe.</p>
-          <img src="assets/tulipomanie.jpg" alt="tulipomanie">
-        </div>
-        <a href="https://fr.wikipedia.org/wiki/Tulipomanie" class="card-link">En savoir plus sur le crash des tulipes.</a>
+<!-- PAGE CONTENT -->
+
+<?php include $_GET["path"]; ?>
+
+<!-- PAGE CONTENT -->
+
+    <div style="height: 300px; overflow: hidden; margin-top: -75px;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.84,43.91 C158.29,42.92 231.65,38.97 502.54,0.50 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #007bff;"></path></svg></div>
+    <footer style="margin-top: -150px; display: flex; flex-direction: row;">
+      <div class="logo_iut">
+        <img src="assets/logo_iut.png" alt="">
       </div>
-    </div>
-
-    <div class="card w-75 mx-auto mb-3 card_content" data-center-center="opacity:1;right:0%;" data-bottom-top="opacity:1;right:10%;">
-        <div class="card-horizontal">
-          <div  id="image1_accueil" class="card_image"></div>
-            <div class="card_text">
-                <h4>L'aspect économique de la Bourse</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <form action="pages/economie.php" style="display: inline;">
-                  <button type="button" class="btn btn-primary">En savoir plus</button>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="card w-75 mx-auto mb-3 card_content" data-center-center="opacity:1;right:0%;" data-bottom-top="opacity:1;right:10%;">
-        <div class="card-horizontal">
-            <div id="image2_accueil" class="card_image"></div>
-            <div class="card_text">
-                <h4>Les moyens techniques mis en oeuvre</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <form action="pages/fonctionnel.php" style="display: inline;">
-                  <button type="button" class="btn btn-primary">En savoir plus</button>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="card w-75 mx-auto mb-3 card_content" data-center-center="opacity:1;right:0%;" data-bottom-top="opacity:1;right:10%;">
-        <div class="card-horizontal">
-            <div id="image3_accueil" class="card_image"></div>
-            <div class="card_text">
-                <h4>Les contraintes juridiques de la Bourse</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <form action="pages/juridique.php" style="display: inline;">
-                  <button type="button" class="btn btn-primary">En savoir plus</button>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="wrapper">
-      <div class="box">
-          <?php for ($i=0; $i < 10 ; $i++) { ?>
-            <div><img src="assets/euro.png" alt=""></div>
-          <?php } ?>
+      <div class="logo_text" style="margin-left: 15px; height: auto; margin-top: auto; margin-bottom: auto;">
+        <p style="font-size: 20px;"><span style="color: lightgreen; font-weight: bold; font-size: 30px;">IUT</span><br>Belfort-<br>Montbéliard</p>
       </div>
-    </div>
-
-<?php include "pages/footer.php"; ?>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/skrollr.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+      // if (s.isMobile()) {
+      //   s.destroy();
+      // }
+    </script>
+  </body>
+</html>
