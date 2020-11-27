@@ -49,6 +49,21 @@
    width: 50%;
  }
 }
+
+.text_image{
+  display: flex;
+  flex-direction: row;
+}
+
+.text_image p{
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.text_image img{
+  width: 100%;
+}
+
 @media only screen and (max-width: 800px) {
  .card_image{
    height: 200px;
@@ -59,11 +74,22 @@
    height: auto;
    width: 100%;
  }
+
+ .text_image{
+   display: flex;
+   flex-direction: column;
+ }
 }
 
 .logo_iut{
   margin-left: 30px;
 }
+
+/*
+------------------------------------------------------------------------
+Euro animation
+------------------------------------------------------------------------
+*/
 
 @keyframes animate {
   0%{
