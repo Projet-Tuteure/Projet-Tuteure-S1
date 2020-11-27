@@ -28,10 +28,8 @@
           <div  id="image1_accueil" class="card_image"></div>
             <div class="card_text">
                 <h4>L'aspect économique de la Bourse</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <form action="index.php?path=pages/economie.php" style="display: inline;">
-                  <button type="button" class="btn btn-primary">En savoir plus</button>
-                </form>
+                <p>Quelle place doivent occuper les marchés boursiers au sein de notre économie ? Sont-il vraiment bénéfiques à nos entreprises ? Que peut-on faire pour réguler et contrôler la spéculation ? <br>De nombreuses questions se posent autour de la bourse et son impact économique est plus que complexe. Nous nous sommes donc demandés qui en sont les acteurs, qu'est-ce qui est échangé, et comment évoluent les marchés.</p>
+                <button onclick="window.location.href='index.php?path=pages/economie.php';" type="button" class="btn btn-primary">En savoir plus</button>
             </div>
         </div>
     </div>
@@ -41,10 +39,8 @@
             <div id="image2_accueil" class="card_image"></div>
             <div class="card_text">
                 <h4>Les moyens techniques mis en oeuvre</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <form action="index.php?path=pages/fonctionnel.php" style="display: inline;">
-                  <button type="button" class="btn btn-primary">En savoir plus</button>
-                </form>
+                <p>Pour faire face aux enjeux économiques aussi importants que ceux des marchés boursiers, il faut une organisation, des techniques et des technologies infaillibles. <br>Alors qui sont les hommes et les femmes qui se cache derrière toute cette organisation ? Quelles sont les technologies utilisées ?</p>
+                <button onclick="window.location.href='index.php?path=pages/fonctionnel.php';" type="button" class="btn btn-primary">En savoir plus</button>
             </div>
         </div>
     </div>
@@ -54,10 +50,8 @@
             <div id="image3_accueil" class="card_image"></div>
             <div class="card_text">
                 <h4>Les contraintes juridiques de la Bourse</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <form action="index.php?path=pages/juridique.php" style="display: inline;">
-                  <button type="button" class="btn btn-primary">En savoir plus</button>
-                </form>
+                <p>Avec des capitaux aussi importants en jeu, en plus d'être infaillible techniquement, la bourse doit être infaillible juridiquement. <br>Quelles sont les fraudes les plus courantes ? Qu'est-ce qui est fait pour prévenir les abus et préserver la stabilité des marchés boursiers ? Quelles sont les peines encourues ?</p>
+                <button onclick="window.location.href='index.php?path=pages/juridique.php';" type="button" class="btn btn-primary">En savoir plus</button>
             </div>
         </div>
     </div>

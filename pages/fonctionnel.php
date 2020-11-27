@@ -23,7 +23,7 @@
               <div class="col">
                   <div class="collapse multi-collapse" id="NYSE">
                       <div class="card card-body">
-                          <img class="w-100" src="../assets/NYSE.png" alt="Logo NYSE"/><br>
+                          <img class="w-100" src="assets/NYSE.png" alt="Logo NYSE"/><br>
                           <p class="text-center">Bourse de New York</p>
                       </div>
                   </div>
@@ -31,7 +31,7 @@
               <div class="col">
                   <div class="collapse multi-collapse" id="LSE">
                       <div class="card card-body">
-                          <img class="w-100" src="../assets/LSE.png" alt="Logo LSE"/><br>
+                          <img class="w-100" src="assets/LSE.png" alt="Logo LSE"/><br>
                           <p class="text-center">London Stock Exchange</p>
                       </div>
                   </div>
@@ -39,7 +39,7 @@
               <div class="col">
                   <div class="collapse multi-collapse" id="EURONEXT">
                       <div class="card card-body justify-content-center">
-                          <img class="w-100" src="../assets/Euronext.png" alt="Logo Euronext"/><br>
+                          <img class="w-100" src="assets/Euronext.png" alt="Logo Euronext"/><br>
                           <p class="text-center">Bourse de la Zone Euro</p>
                       </div>
                   </div>
@@ -47,7 +47,7 @@
               <div class="col">
                   <div class="collapse multi-collapse" id="NASDAQ">
                       <div class="card card-body">
-                          <img class="w-100" src="../assets/NASDAQ.png" alt="Logo NASDAQ"/><br>
+                          <img class="w-100" src="assets/NASDAQ.png" alt="Logo NASDAQ"/><br>
                           <p class="text-center">Bourse des USA</p>
                       </div>
                   </div>
@@ -55,7 +55,7 @@
               <div class="col">
                   <div class="collapse multi-collapse" id="TSE">
                       <div class="card card-body">
-                          <img class="w-100" src="../assets/TSE.png" alt="Logo TSE"/><br>
+                          <img class="w-100" src="assets/TSE.png" alt="Logo TSE"/><br>
                           <p class="text-center">Bourse de Tokyo</p>
                       </div>
                   </div>
@@ -63,7 +63,7 @@
               <div class="col">
                   <div class="collapse multi-collapse" id="SEHK">
                       <div class="card card-body">
-                          <img class="w-100" src="../assets/SEHK.png" alt="Logo SEHK"/><br>
+                          <img class="w-100" src="assets/SEHK.png" alt="Logo SEHK"/><br>
                           <p class="text-center">Hong Kong Stock Exchange</p>
                       </div>
                   </div>
@@ -71,7 +71,7 @@
               <div class="col">
                   <div class="collapse multi-collapse" id="SSE">
                       <div class="card card-body">
-                          <img class="w-100" src="../assets/SSE.png" alt="Logo SSE"/><br>
+                          <img class="w-100" src="assets/SSE.png" alt="Logo SSE"/><br>
                           <p class="text-center">Shanghai Stock Exchange</p>
                       </div>
                   </div>
@@ -79,7 +79,7 @@
               <div class="col">
                   <div class="collapse multi-collapse" id="TSK">
                       <div class="card card-body">
-                          <img class="w-100" src="../assets/TSX.svg" alt="Logo TSX"/><br>
+                          <img class="w-100" src="assets/TSX.svg" alt="Logo TSX"/><br>
                           <p class="text-center">Toronto Stock Exchange (Canada)</p>
                       </div>
                   </div>
@@ -87,7 +87,7 @@
               <div class="col">
                   <div class="collapse multi-collapse" id="FWD">
                       <div class="card card-body">
-                          <img class="w-100" src="../assets/FWD.png" alt="Logo FWD"/><br>
+                          <img class="w-100" src="assets/FWD.png" alt="Logo FWD"/><br>
                           <p class="text-center">Bourse de Francfort</p>
                       </div>
                   </div>
@@ -95,9 +95,9 @@
           </div>
           <h4 class="card-subtitle mb-2 text-muted">Les technologies utilisés en Bourse</h4>
           <div class="row">
-              <img class="col-5" src="../assets/trading_avant.jpg" alt="Salle de trading avant"/>
+              <img class="col-5" src="assets/trading_avant.jpg" alt="Salle de trading avant"/>
               <p> => </p>
-              <img class="col-5" src="../assets/salle_trading.jpg" alt="Salle de trading de nos jours"/>
+              <img class="col-5" src="assets/salle_trading.jpg" alt="Salle de trading de nos jours"/>
           </div>
           <p class="card-text">Les marchés se sont grandement transformés depuis les années 80 et ceci en grande partie grâce aux évolutions technologiques. C’est l’apparition des ordinateurs, des réseaux, puis l’augmentation de la puissance de calcul de ces ordinateurs et le développement considérable des possibilités de communication entre ces derniers qui ont tout changé.
               <br>Puisque les marchés boursiers évoluent aujourd’hui en temps réel, la performance des ordinateurs et des réseaux est primordiale, de même les pannes sont intolérables et les marchés sont appelés à consacrer des ressources importantes à diagnostiquer toute imperfection de leur système. En effet le ralentissement des traitements et/ou de la diffusion de l’information ne serait-ce que de quelques secondes peut provoquer des pertes financières considérables chez certains opérateurs.
@@ -117,7 +117,7 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active text-center p-4">
                             <h4 class="card-subtitle mb-2 text-muted">Brokers, les intermédiaires de la bourse</h4>
-                            <img src="../assets/Broker.png" alt="Image de Leonardo Dicaprio dans 'Le loup de Wall Street'" style="border-radius: 10px;"/>
+                            <img src="assets/Broker.png" alt="Image de Leonardo Dicaprio dans 'Le loup de Wall Street'" style="border-radius: 10px;"/>
                             <h5 class="card-subtitle mb-2 text-muted"><em>Description du poste :</em></h5>
                             <p class="card-text">
                                 "Broker" est un mot anglais correspondant au "courtier" en français mais dans le jargon financier, le mot de broker est devenu la norme. Il existe une multitude de broker selon les différents secteurs professionnels tels que le secteur automobile, l’immobilier, les assurances etc… mais tous ont le rôle intermédiaire entre les clients et les producteurs.
@@ -129,7 +129,7 @@
                         </div>
                         <div class="carousel-item text-center p-4">
                             <h4 class="card-subtitle mb-2 text-muted">Traders</h4>
-                            <img src="../assets/trader.jpg" alt="image de Trader" height="300px" style="border-radius: 10px;"/>
+                            <img src="assets/trader.jpg" alt="image de Trader" height="300px" style="border-radius: 10px;"/>
                             <p class="card-text">Dans les marchés financiers, il existe une multitude de métiers pouvant aller de simples techniciens au gestionnaire de portefeuilles.
                                 <br>Il est ainsi courant de distinguer 3 grandes catégories de métiers dans la finance : le Front-Office, le Middle-Office et le Back-Office.
                                 <br>En bref, plus on est en avant, plus on est exposé aux risques et donc les compétences requises sont plus élevées.
@@ -146,7 +146,7 @@
                         </div>
                         <div class="carousel-item text-center p-4">
                             <h4 class="card-subtitle mb-2 text-muted">Techniciens</h4>
-                            <img src="../assets/Backoffice.jpg" style="border-radius: 10px;" height="300px" alt="image de S.A.V."/>
+                            <img src="assets/Backoffice.jpg" style="border-radius: 10px;" height="300px" alt="image de S.A.V."/>
                             <h5 class="card-subtitle mb-2 text-muted"><em>Description du poste :</em></h5>
                             <p class="card-text">En bourse, les techniciens sont ceux travaillant dans la maintenance, l'entretien du matériel et assurent le bon fonctionnement des structures boursières tels que la mise à jour journalier des cours boursiers.
                                 <br>Tous ces environnements constitue ce qu'on appelle le <em>"back-Office"</em>.

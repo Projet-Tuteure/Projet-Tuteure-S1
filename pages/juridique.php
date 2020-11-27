@@ -11,7 +11,7 @@
             Ce délit est puni par les autorités de contrôle des marchés et n'est pas à confondre avec l'analyse des informations divulguées publiquement.
         </p>
         <div class="card" style="width:10rem;margin-left:80%;margin-top:-5%;">
-            <img src="../assets/AMF.png" class="card-img-top" alt="">
+            <img src="assets/AMF.png" class="card-img-top" alt="">
         </div>
         <h4 class="card-subtitle mb-2 text-muted">Les entreprises</h4>
         <p class="card-text">Les entreprises se doivent de suivre une règle majeur lorsqu'elles sont cotées en bourse. On appelle cela une obligation de publication d'information. Elles doivent donc rendre publique certaines informations pour que les investisseurs puissent prendre la décision d'investir ou non. Les entreprises ne respectant pas cette loi sont alors sanctionnées par les autorités des marchés qui diffusent une liste des entreprises "retardataires", puis si les informations ne sont toujours pas diffusées, des poursuites judiciaires sont engagées pour obtenir une injonction de publication sous abstreinte.</p>
@@ -20,7 +20,7 @@
         <h4 class="card-subtitle mb-2 text-muted">Les placements d'ordres</h4>
         <p class="card-text">Le placement d'ordre implique des frais. Il en existe plusieurs. Les plus connus sont les frais de courtages qui sont soit une valeur fixe, soit le pourcentage d'un montant investi. Il existe néanmoins des frais moins connus comme la Taxe sur les Transactions Financières (TTF). Elle a pour but de freiner la spéculation et encourage l'investissement à long terme. Elle ne s'applique que sur les achats d'actions de société dont le siège social est situé en France et dont la capitalisation boursière est supérieur à 1 milliard d'euros.</p>
         <div class="card" style="width:25rem;margin:auto;">
-            <img src="../assets/carnet_ordre.jpeg" class="card-img-top" alt="">
+            <img src="assets/carnet_ordre.jpeg" class="card-img-top" alt="">
         </div>
         <br />
 
