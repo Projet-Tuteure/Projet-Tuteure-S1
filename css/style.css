@@ -1,5 +1,5 @@
 .navbar {
-  background: #000B76;
+  background: #007bff;
 }
 
 .headerbg{
@@ -12,15 +12,15 @@
 }
 
 #image1_accueil{
-  background-image: url(http://via.placeholder.com/300x180);
+  background-image: url("../assets/accueil_miniature_economie.jpg");
 }
 
 #image2_accueil{
-  background-image: url(http://via.placeholder.com/300x180);
+  background-image: url("../assets/accueil_miniature_technology.jpg");
 }
 
 #image3_accueil{
-  background-image: url(http://via.placeholder.com/300x180);
+  background-image: url("../assets/accueil_miniature_juridique.jpg");
 }
 
 .card_image{
@@ -59,6 +59,10 @@
    height: auto;
    width: 100%;
  }
+}
+
+.logo_iut{
+  margin-left: 30px;
 }
 
 @keyframes animate {
