@@ -1,10 +1,17 @@
     <div style="height: 300px; overflow: hidden; margin-top: -75px;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.84,43.91 C158.29,42.92 231.65,38.97 502.54,0.50 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #007bff;"></path></svg></div>
     <footer style="margin-top: -150px; display: flex; flex-direction: row;">
-      <div class="logo_iut">
-        <img src="assets/logo_iut.png" alt="">
+      <div class="logo">
+        <div class="logo_iut">
+          <img src="assets/logo_iut.png" alt="">
+        </div>
+        <div class="logo_text" style="margin-left: 15px; height: auto; margin-top: auto; margin-bottom: auto;">
+          <p style="font-size: 20px;"><span style="color: lightgreen; font-weight: bold; font-size: 30px;">IUT</span><br>Belfort-<br>Montbéliard</p>
+        </div>
       </div>
-      <div class="logo_text" style="margin-left: 15px; height: auto; margin-top: auto; margin-bottom: auto;">
-        <p style="font-size: 20px;"><span style="color: lightgreen; font-weight: bold; font-size: 30px;">IUT</span><br>Belfort-<br>Montbéliard</p>
+      <div class="footer_contacter">
+        <form action="pages/contact.php" method="post">
+          <button type="button" class="btn btn-success" name="button">Nous contacter</button>
+        </form>
       </div>
     </footer>
     <!-- Scripts -->

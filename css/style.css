@@ -1,3 +1,9 @@
+/*
+--------------------------------------------------------------------------
+Header
+--------------------------------------------------------------------------
+*/
+
 .navbar {
   background: #007bff;
 }
@@ -6,6 +12,66 @@
   height: 200px;
   background-color: darkblue;
 }
+
+/*
+--------------------------------------------------------------------------
+footer
+--------------------------------------------------------------------------
+*/
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer ul{
+  list-style-type: none;
+  margin-right: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+footer li{
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li a{
+  color: white;
+}
+
+footer ul li a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_contacter{
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer_contacter{
+    display: none;
+  }
+
+  footer ul{
+    display: none;
+  }
+}
+
+/*
+-----------------------------------------------------------------------------
+Img cards
+-----------------------------------------------------------------------------
+*/
 
 .card_content{
   border: 2px lightgray solid;
@@ -33,7 +99,6 @@
   padding: 20px;
 }
 
-/* img cards */
 @media only screen and (min-width: 801px) {
  .card-horizontal {
    display: flex;
@@ -180,10 +245,9 @@ Euro animation
 
 /*
 ------------------------------------------------------------------------
-Card animation page 2
+Flipping card
 ------------------------------------------------------------------------
 */
-
 
 .maincontainer{
   position: relative;
@@ -243,7 +307,6 @@ Card animation page 2
   transform: rotateY(180deg);
 }
 
-
 /*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
 .thefront h4, .theback h4{
   font-family: 'zilla slab', sans-serif;
@@ -259,4 +322,3 @@ Card animation page 2
   font-weight: normal;
   text-align: center;
 }
-
