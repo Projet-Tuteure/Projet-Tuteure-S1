@@ -10,23 +10,53 @@
             - Le délit d'initié inirect : Dans ce cas, l'information est obtenue par un membre extérieur à l'entreprise.<br />
             Ce délit est puni par les autorités de contrôle des marchés et n'est pas à confondre avec l'analyse des informations divulguées publiquement.
         </p>
-        <div class="card" style="width:10rem;margin-left:80%;margin-top:-5%;">
-            <img src="assets/AMF.png" class="card-img-top" alt="">
+        <div class="card mb-3 shadow p-3 mb-5 bg-white rounded" style="max-width: 60%;">
+            <div class="row no-gutters">
+                <div class="col md-4">
+                    <img src="assets/AMF.png" class="card-img" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Autorité des Marchés Financiers</h5>
+                        <p>Elle veille à la protection de l'épargne investie sur le marché, à son bon fonctionnement et à l'information des investisseurs. </p>
+                    </div>
+                </div>
+            </div>
+            <br />
         </div>
+    <div class="card-body">
         <h4 class="card-subtitle mb-2 text-muted">Les entreprises</h4>
         <p class="card-text">Les entreprises se doivent de suivre une règle majeur lorsqu'elles sont cotées en bourse. On appelle cela une obligation de publication d'information. Elles doivent donc rendre publique certaines informations pour que les investisseurs puissent prendre la décision d'investir ou non. Les entreprises ne respectant pas cette loi sont alors sanctionnées par les autorités des marchés qui diffusent une liste des entreprises "retardataires", puis si les informations ne sont toujours pas diffusées, des poursuites judiciaires sont engagées pour obtenir une injonction de publication sous abstreinte.</p>
-
+    </div>
+    </div>
+</div>
+<div class="card w-75 mx-auto mb-3 card_content">
+    <div class="card-body">
         <h3 class="card-title">Taxes et charges liées à la bourse</h3>
         <h4 class="card-subtitle mb-2 text-muted">Les placements d'ordres</h4>
         <p class="card-text">Le placement d'ordre implique des frais. Il en existe plusieurs. Les plus connus sont les frais de courtages qui sont soit une valeur fixe, soit le pourcentage d'un montant investi. Il existe néanmoins des frais moins connus comme la Taxe sur les Transactions Financières (TTF). Elle a pour but de freiner la spéculation et encourage l'investissement à long terme. Elle ne s'applique que sur les achats d'actions de société dont le siège social est situé en France et dont la capitalisation boursière est supérieur à 1 milliard d'euros.</p>
-        <div class="card" style="width:25rem;margin:auto;">
-            <img src="assets/carnet_ordre.jpeg" class="card-img-top" alt="">
-        </div>
-        <br />
-
+        <div class="card mb-3 shadow p-3 mb-5 bg-white rounded" style="max-width: 70local%;">
+            <div class="row no-gutters">
+                <div class="col md-4">
+                    <img src="assets/carnet_ordre.jpeg" class="card-img" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Carnet d'ordres</h5>
+                        <p>
+                            Pour passer un ordre de Bourse sur une valeur, il est important de connaître son carnet d'ordres. Le carnet d'ordres récapitule à un instant donné l'état de l'offre et de la demande sur une valeur. Il présente les 5 meilleures offres (vendeurs) et les 5 meilleures demandes (acheteurs) sur l'action : quantités, prix et nombre d'ordres. Ces informations sont essentielles et vous permettent de positionner vos ordres en connaissance de cause. Ainsi, vous ne risquez pas de voir votre ordre fractionné, non exécuté, voire exécuté à un mauvais prix. </p>
+                    </div>
+                </div>
+                </div>
+                <br />
+            </div>
         <h4 class="card-subtitle mb-2 text-muted">Déclaration</h4>
         <p class="card-text">La cotisation subsidiaire maladie est une taxe apparue en 2017 qui vise les rentiers. Sa mise en place vise les personnes dont leurs revenus liés à l'activité professionnelle sont inférieur à 10% et dont les autres revenus sont supérieur à 25%. Les plus-values sont également soumises au prélèvement forfaitaire unique.</p>
+    </div>
+</div>
 
+<div class="card w-75 mx-auto mb-3 card_content">
+    <div class="card-body">
         <h3 class="card-title">Les arnaques et pièges liées à la bourse</h3>
         <h4 class="card-subtitle mb-2 text-muted">Les CFD (Contract For Difference)</h4>
         <p class="card-text">Les CFD sont des produits dérivés de valeurs comme le CAC 40, le Dow Jones qui reproduisent les variations. Il est fonctionnel 24h/24h et fonctionne même quand la bourse est fermée et permet de trader. Il est malheureusement dangereux car il peut permettre de gagner de l'argent mais peut en faire perdre plus encore. Certaines sociétés de courtage vendent des CFD perdant qui sont basés sur des packages de valeurs peu prometteurs et ne mentionne pas les risques.<br />
