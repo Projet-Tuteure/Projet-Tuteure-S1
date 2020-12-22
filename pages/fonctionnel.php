@@ -261,7 +261,7 @@
             </div>
             <div class="col-md-4">
                 <figure>
-                    <img src="assets/bigdata.jpeg" alt="Big data" height="250px" class="image-fluid rounded mx-auto d-block"/>
+                    <img src="assets/bigdata.jpeg" alt="Big data" height="250px" class="image-fluid rounded mx-auto d-block w-100"/>
                     <figcaption class="text-center"><em>Le big Data</em></figcaption>
                 </figure>
             </div>
