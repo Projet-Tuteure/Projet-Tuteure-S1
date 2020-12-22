@@ -57,9 +57,7 @@ if (!isset($_GET["path"])) {
         </div>
       </div>
       <div class="footer_contacter">
-        <form action="pages/contact.php" method="post">
-          <button type="button" class="btn btn-success" name="button">Nous contacter</button>
-        </form>
+        <button onclick="window.location.href='index.php?path=pages/contact.php';" type="button" class="btn btn-success" name="button">Nous contacter</button>
       </div>
       <ul class="footer_nav">
         <li><a href="index.php?path=pages/accueil.php">Accueil</a></li>
