@@ -1,100 +1,84 @@
 <h1 class="w-auto mx-auto mb-5 text-white text-center" style="margin-top: -200px">Le fonctionnement technique de la bourse</h1>
 
-<!-- à copier-coller pour chaque partie -->
-<div class="card w-75 mx-auto mb-3 card_content">
+<div id="button_group" class="card w-75 mx-auto mb-3 card_content">
     <div class="card-body">
         <h3 class="card-title">La Bourse : comment ça marche ?</h3>
         <h4 class="card-subtitle mb-2 text-muted">Les places boursières</h4>
         <p class="card-text">Une place financière est une région ou une ville possédant un emplacement stratégique pour l'industrie financière. Il s'agit d'un endroit où divers participants du secteur financier, tels que des banques, des sociétés de commerce, des marchés boursiers et d'autres institutions, sont concentrés dans une seule zone.
-            <br>Voici quelques exemples de place boursière dans le monde : </p>
+            <br>Voici quelques exemples de place boursière dans le monde :
+        </p>
 
         <p class="row justify-content-around">
-            <button class="btn boutonCollapse col-md-1" type="button" data-toggle="collapse" data-target="#NYSE" aria-expanded="false" aria-controls="NYSE">NYSE</button>
-            <button class="btn boutonCollapse col-md-1" type="button" data-toggle="collapse" data-target="#LSE" aria-expanded="false" aria-controls="LSE">LSE</button>
-            <button class="btn boutonCollapse col-md-1" type="button" data-toggle="collapse" data-target="#EURONEXT" aria-expanded="false" aria-controls="EURONEXT">EURONEXT</button>
-            <button class="btn boutonCollapse col-md-1" type="button" data-toggle="collapse" data-target="#NASDAQ" aria-expanded="false" aria-controls="NASDAQ">NASDAQ</button>
-            <button class="btn boutonCollapse col-md-1" type="button" data-toggle="collapse" data-target="#TSE" aria-expanded="false" aria-controls="TSE">TSE</button>
-            <button class="btn boutonCollapse col-md-1" type="button" data-toggle="collapse" data-target="#SEHK" aria-expanded="false" aria-controls="SEHK">SEHK</button>
-            <button class="btn boutonCollapse col-md-1" type="button" data-toggle="collapse" data-target="#SSE" aria-expanded="false" aria-controls="SSE">SSE</button>
-            <button class="btn boutonCollapse col-md-1" type="button" data-toggle="collapse" data-target="#TSK" aria-expanded="false" aria-controls="TSK">TSX</button>
-            <button class="btn boutonCollapse col-md-1" type="button" data-toggle="collapse" data-target="#FWD" aria-expanded="false" aria-controls="FWD">FWD</button>
+            <button class="btn btn-outline-primary collapsed col-md-1" type="button" data-toggle="collapse" data-target="#NYSE" aria-expanded="false" aria-controls="NYSE">NYSE</button>
+            <button class="btn btn-outline-primary collapsed col-md-1" type="button" data-toggle="collapse" data-target="#LSE" aria-expanded="false" aria-controls="LSE">LSE</button>
+            <button class="btn btn-outline-primary collapsed col-md-1" type="button" data-toggle="collapse" data-target="#EURONEXT" aria-expanded="false" aria-controls="EURONEXT">EURONEXT</button>
+            <button class="btn btn-outline-primary collapsed col-md-1" type="button" data-toggle="collapse" data-target="#NASDAQ" aria-expanded="false" aria-controls="NASDAQ">NASDAQ</button>
+            <button class="btn btn-outline-primary collapsed col-md-1" type="button" data-toggle="collapse" data-target="#TSE" aria-expanded="false" aria-controls="TSE">TSE</button>
+            <button class="btn btn-outline-primary collapsed col-md-1" type="button" data-toggle="collapse" data-target="#SEHK" aria-expanded="false" aria-controls="SEHK">SEHK</button>
+            <button class="btn btn-outline-primary collapsed col-md-1" type="button" data-toggle="collapse" data-target="#SSE" aria-expanded="false" aria-controls="SSE">SSE</button>
+            <button class="btn btn-outline-primary collapsed col-md-1" type="button" data-toggle="collapse" data-target="#TSK" aria-expanded="false" aria-controls="TSK">TSX</button>
+            <button class="btn btn-outline-primary collapsed col-md-1" type="button" data-toggle="collapse" data-target="#FWD" aria-expanded="false" aria-controls="FWD">FWD</button>
         </p>
-        <div class="row">
-            <div class="col-md">
-                <div class="collapse multi-collapse" id="NYSE">
-                    <div class="card card-body">
-                        <img class="w-100" src="assets/NYSE.png" alt="Logo NYSE"/><br>
-                        <p class="text-center">Bourse de New York</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="collapse multi-collapse" id="LSE">
-                    <div class="card card-body">
-                        <img class="w-100" src="assets/LSE.png" alt="Logo LSE"/><br>
-                        <p class="text-center">London Stock Exchange</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="collapse multi-collapse" id="EURONEXT">
-                    <div class="card card-body justify-content-center">
-                        <img class="w-100" src="assets/Euronext.png" alt="Logo Euronext"/><br>
-                        <p class="text-center">Bourse de la Zone Euro</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="collapse multi-collapse" id="NASDAQ">
-                    <div class="card card-body">
-                        <img class="w-100" src="assets/NASDAQ.png" alt="Logo NASDAQ"/><br>
-                        <p class="text-center">Bourse des USA</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="collapse multi-collapse" id="TSE">
-                    <div class="card card-body">
-                        <img class="w-100" src="assets/TSE.png" alt="Logo TSE"/><br>
-                        <p class="text-center">Bourse de Tokyo</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="collapse multi-collapse" id="SEHK">
-                    <div class="card card-body">
-                        <img class="w-100" src="assets/SEHK.png" alt="Logo SEHK"/><br>
-                        <p class="text-center">Hong Kong Stock Exchange</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="collapse multi-collapse" id="SSE">
-                    <div class="card card-body">
-                        <img class="w-100" src="assets/SSE.png" alt="Logo SSE"/><br>
-                        <p class="text-center">Shanghai Stock Exchange</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="collapse multi-collapse" id="TSK">
-                    <div class="card card-body">
-                        <img class="w-100" src="assets/TSX.svg" alt="Logo TSX"/><br>
-                        <p class="text-center">Toronto Stock Exchange (Canada)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="collapse multi-collapse" id="FWD">
-                    <div class="card card-body">
-                        <img class="w-100" src="assets/FWD.png" alt="Logo FWD"/><br>
-                        <p class="text-center">Bourse de Francfort</p>
-                    </div>
-                </div>
-            </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="collapse img_bourse" id="NYSE" data-parent="#button_group">
+              <div class="card card-body">
+                  <img class="w-100" src="assets/NYSE.png" alt="Logo NYSE"><br>
+                  <p class="text-center">Bourse de New York</p>
+              </div>
+          </div>
+          <div class="collapse img_bourse" id="LSE" data-parent="#button_group">
+              <div class="card card-body">
+                  <img class="w-100" src="assets/LSE.png" alt="Logo LSE"><br>
+                  <p class="text-center">London Stock Exchange</p>
+              </div>
+          </div>
+          <div class="collapse img_bourse" id="EURONEXT" data-parent="#button_group">
+              <div class="card card-body justify-content-center">
+                  <img class="w-100" src="assets/Euronext.png" alt="Logo Euronext"><br>
+                  <p class="text-center">Bourse de la Zone Euro</p>
+              </div>
+          </div>
+          <div class="collapse img_bourse" id="NASDAQ" data-parent="#button_group">
+              <div class="card card-body">
+                  <img class="w-100" src="assets/NASDAQ.png" alt="Logo NASDAQ"><br>
+                  <p class="text-center">Bourse des USA</p>
+              </div>
+          </div>
+          <div class="collapse img_bourse" id="TSE" data-parent="#button_group">
+              <div class="card card-body">
+                  <img class="w-100" src="assets/TSE.png" alt="Logo TSE"><br>
+                  <p class="text-center">Bourse de Tokyo</p>
+              </div>
+          </div>
+          <div class="collapse img_bourse" id="SEHK" data-parent="#button_group">
+              <div class="card card-body">
+                  <img class="w-100" src="assets/SEHK.png" alt="Logo SEHK"><br>
+                  <p class="text-center">Hong Kong Stock Exchange</p>
+              </div>
+          </div>
+          <div class="collapse img_bourse" id="SSE" data-parent="#button_group">
+              <div class="card card-body">
+                  <img class="w-100" src="assets/SSE.png" alt="Logo SSE"><br>
+                  <p class="text-center">Shanghai Stock Exchange</p>
+              </div>
+          </div>
+          <div class="collapse img_bourse" id="TSK" data-parent="#button_group">
+              <div class="card card-body">
+                  <img class="w-100" src="assets/TSX.svg" alt="Logo TSX"><br>
+                  <p class="text-center">Toronto Stock Exchange (Canada)</p>
+              </div>
+          </div>
+          <div class="collapse img_bourse" id="FWD" data-parent="#button_group">
+              <div class="card card-body">
+                  <img class="w-100" src="assets/FWD.png" alt="Logo FWD"><br>
+                  <p class="text-center">Bourse de Francfort</p>
+              </div>
+          </div>
         </div>
     </div>
 </div>
+
 <div class="card w-75 mx-auto mb-3 card_content">
     <div class="card-body">
         <h4 class="card-subtitle mb-3 text-muted">Les technologies utilisés en Bourse</h4>
@@ -126,7 +110,7 @@
                 <div class="maincontainer">
                     <div class="thecard">
                         <div class="thefront">
-                            <h4>Brokers, les intermédiaires de la bourse</h4>
+                            <h4>Les Brokers</h4>
                             <img src="assets/Broker.png" style="border-radius: 10px;" alt="Image de Leonardo Dicaprio dans 'Le loup de Wall Street'" class="image-fluid w-100 rounded"/>
                             <p></p>
                         </div>
@@ -139,7 +123,7 @@
                                 </br><a href="https://www.boursedirect.fr/fr/" target="_blank">Bourse-direct</a>
                                 </br> etc...
                             </p>
-                            <button class="btn boutonCollapse collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="btn btn-outline-primary collapsed" type="button" data-toggle="modal" data-target="#modalOne" aria-expanded="true" aria-controls="collapseOne">
                                 Voir plus...
                             </button>
                         </div>
@@ -155,9 +139,10 @@
                         </div>
                         <div class="theback pt-5 border border-primary">
                             <p>
+                              <Strong>Que fait-il ?</Strong></br>
                               Le trader (aussi appelé opérateur financier) cherche à dégager des gains sur des opérations d'achat et de vente ou de prêt et d'emprunt, tout en minimisant son risque.
                             </p>
-                            <button class="btn boutonCollapse collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="btn btn-outline-primary collapsed" type="button" data-toggle="modal" data-target="#modalTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Voir plus...
                             </button>
                         </div>
@@ -168,7 +153,7 @@
                 <div class="maincontainer">
                     <div class="thecard">
                         <div class="thefront">
-                            <h4>Techniciens</h4>
+                            <h4>Les Techniciens</h4>
                             <img src="assets/Backoffice.jpg" alt="image de S.A.V." class="image-fluid w-100 rounded"/>
                             <p></p>
                         </div>
@@ -180,7 +165,7 @@
                                 </br>Responsable contrôle et conformité
                                 </br>etc...
                             </p>
-                            <button class="btn boutonCollapse collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="btn btn-outline-primary collapsed" type="button" data-toggle="modal" data-target="#modalThree" aria-expanded="false" aria-controls="collapseThree">
                                 Voir plus...
                             </button>
                         </div>
@@ -188,46 +173,94 @@
                 </div>
             </div>
         </div>
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <h5 class="card-subtitle mb-2 text-muted pt-3">Description du poste :</h5>
-            <p>
-                "Broker" est un mot anglais correspondant au "courtier" en français mais dans le jargon financier, le mot de broker est devenu la norme. Il existe une multitude de broker selon les différents secteurs professionnels tels que le secteur automobile, l’immobilier, les assurances etc… mais tous ont le rôle intermédiaire entre les clients et les producteurs.
-                <br>Dans la bourse, le broker en bourse a pour but de gérer les comptes de ses clients, organiser la réception et la transmission d’ordres. Il facilite les échanges entre les différents traders en identifiant ceux qui offrent le meilleur prix pour une certaine quantité de produits, agissant ainsi comme un intermédiaire entre les parties prenantes.
-            </p>
-            <h5 class="card-subtitle mb-2 text-muted">Environnement de travail :</h5>
-            <p>
-                Avec l'expansion des nouvelles technologies, le métier s'est rénové pour devenir totalement numérique.
-                <br>Dorénavant, il existe de multitude de broker en ligne dont la fiabilité n'est plus remise en cause. Les opérations étant plus rapides et plus sécurisé avec les différents systèmes de cryptage, le broker nécessite dorénavant une aisance dans l'utilisation d'outils informatiques.
-            </p>
+
+        <!-- Cards Modal -->
+        <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Les Brokers</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h5 class="card-subtitle mb-2 text-muted pt-3">Description du poste :</h5>
+                <p>
+                    "Broker" est un mot anglais correspondant au "courtier" en français mais dans le jargon financier, le mot de broker est devenu la norme. Il existe une multitude de broker selon les différents secteurs professionnels tels que le secteur automobile, l’immobilier, les assurances etc… mais tous ont le rôle intermédiaire entre les clients et les producteurs.
+                    <br>Dans la bourse, le broker en bourse a pour but de gérer les comptes de ses clients, organiser la réception et la transmission d’ordres. Il facilite les échanges entre les différents traders en identifiant ceux qui offrent le meilleur prix pour une certaine quantité de produits, agissant ainsi comme un intermédiaire entre les parties prenantes.
+                </p>
+                <h5 class="card-subtitle mb-2 text-muted">Environnement de travail :</h5>
+                <p>
+                    Avec l'expansion des nouvelles technologies, le métier s'est rénové pour devenir totalement numérique.
+                    <br>Dorénavant, il existe de multitude de broker en ligne dont la fiabilité n'est plus remise en cause. Les opérations étant plus rapides et plus sécurisé avec les différents systèmes de cryptage, le broker nécessite dorénavant une aisance dans l'utilisation d'outils informatiques.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <h5 class="card-subtitle mb-2 text-muted pt-3">Description du poste :</h5>
-            <p>
-                Le métier de Trader est un des postes majeurs de la bourse puisqu'ils sont les exécutants du front-Office, aussi appelée "Opérateur de marché".
-                <br>En effet, le Trader a pour rôle d’acheter et de revendre des titres financiers en temps réel dans le but de générer un profit sur l'écart de prix entre les deux opérations. Ceux-ci étant difficile à déceler, le Trader est généralement spécialisé dans un marché spécifique, auquel il connaît les moindres variables pouvant impacter les prix.
-                <br>Il est donc constamment à l'affut d'opportunité, surveille et analyse l’évolution du marché et doit être prêt à tout moment de la journée à négocier les transactions.
-            </p>
-            <h5 class="card-subtitle mb-2 text-muted">Environnement de travail :</h5>
-            <p>
-                En général, le trader travaille pour des grandes entreprises ou des institutions bancaires.
-                <br>Certains secteurs ont un besoin accru en activité de Trading. Par exemple, les agriculteurs peuvent avoir besoin de se couvrir contre les variations de prix des différentes matières premières, ils feront donc ainsi appelle aux Traders.
-                <br>Le secteur bancaire en a besoin pour se placer les capitaux investis par les particuliers afin de générer des plus-values. C'est ce qu'on appelle de l'investissement, mais comme nous l'avons vu dans la <a>partie I</a>, cela peut pencher vers la spéculation.
-            </p>
+        <div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="headingTwo" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Les Traders</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h5 class="card-subtitle mb-2 text-muted pt-3">Description du poste :</h5>
+                <p>
+                    Le métier de Trader est un des postes majeurs de la bourse puisqu'ils sont les exécutants du front-Office, aussi appelée "Opérateur de marché".
+                    <br>En effet, le Trader a pour rôle d’acheter et de revendre des titres financiers en temps réel dans le but de générer un profit sur l'écart de prix entre les deux opérations. Ceux-ci étant difficile à déceler, le Trader est généralement spécialisé dans un marché spécifique, auquel il connaît les moindres variables pouvant impacter les prix.
+                    <br>Il est donc constamment à l'affut d'opportunité, surveille et analyse l’évolution du marché et doit être prêt à tout moment de la journée à négocier les transactions.
+                </p>
+                <h5 class="card-subtitle mb-2 text-muted">Environnement de travail :</h5>
+                <p>
+                    En général, le trader travaille pour des grandes entreprises ou des institutions bancaires.
+                    <br>Certains secteurs ont un besoin accru en activité de Trading. Par exemple, les agriculteurs peuvent avoir besoin de se couvrir contre les variations de prix des différentes matières premières, ils feront donc ainsi appelle aux Traders.
+                    <br>Le secteur bancaire en a besoin pour se placer les capitaux investis par les particuliers afin de générer des plus-values. C'est ce qu'on appelle de l'investissement, mais comme nous l'avons vu dans la <a>partie I</a>, cela peut pencher vers la spéculation.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <h5 class="card-subtitle mb-2 text-muted pt-3">Description du poste :</h5>
-            <p>
-                En bourse, les techniciens sont ceux travaillant dans la maintenance, l'entretien du matériel et assurent le bon fonctionnement des structures boursières tels que la mise à jour journalier des cours boursiers.
-                <br>Tous ces environnements constitue ce qu'on appelle le <em>"back-Office"</em>.
-            </p>
-            <h5 class="card-subtitle mb-2 text-muted">Environnement de travail :</h5>
-            <p>
-                Les techniciens de la bourse travaillent généralement aux sièges des institutions boursières. Mais face à la spécialisation constante des activités professionnelles, il est possible de trouver des sociétés spécialisées dans la maintenance des activités boursières.
-                <br>Malheureusement, ceux-ci sont voués à disparaitre en raison de la digitalisation constante des opérations. La gestion des cours se faisant de plus en plus automatique, il n'y a de moins en moins besoin de présence humaine.
-            </p>
+        <div class="modal fade" id="modalThree" tabindex="-1" role="dialog" aria-labelledby="headingThree" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Les Techniciens</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h5 class="card-subtitle mb-2 text-muted pt-3">Description du poste :</h5>
+                <p>
+                    En bourse, les techniciens sont ceux travaillant dans la maintenance, l'entretien du matériel et assurent le bon fonctionnement des structures boursières tels que la mise à jour journalier des cours boursiers.
+                    <br>Tous ces environnements constitue ce qu'on appelle le <em>"back-Office"</em>.
+                </p>
+                <h5 class="card-subtitle mb-2 text-muted">Environnement de travail :</h5>
+                <p>
+                    Les techniciens de la bourse travaillent généralement aux sièges des institutions boursières. Mais face à la spécialisation constante des activités professionnelles, il est possible de trouver des sociétés spécialisées dans la maintenance des activités boursières.
+                    <br>Malheureusement, ceux-ci sont voués à disparaitre en raison de la digitalisation constante des opérations. La gestion des cours se faisant de plus en plus automatique, il n'y a de moins en moins besoin de présence humaine.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 </div>
+
 <div class="card w-75 mx-auto mb-3 card_content">
     <div class="card-body">
         <h3 class="card-title">Quelques études de cas</h3>

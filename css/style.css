@@ -245,6 +245,17 @@ Euro animation
 
 /*
 ------------------------------------------------------------------------
+Plaes Boursières
+------------------------------------------------------------------------
+*/
+
+.img_bourse{
+  width: 240px;
+  height: auto;
+}
+
+/*
+------------------------------------------------------------------------
 Flipping card
 ------------------------------------------------------------------------
 */
@@ -321,18 +332,6 @@ Flipping card
   padding: 30px;
   font-weight: normal;
   text-align: center;
-}
-
-
-.boutonCollapse {
-  color: #007bff;
-  border: 1px solid #007bff;
-  border-color: #007bff;
-}
-
-.boutonCollapse:hover {
-  color: white;
-  background-color: #007bff;
 }
 
 /*
