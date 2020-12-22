@@ -10,9 +10,9 @@
             - Le délit d'initié inirect : Dans ce cas, l'information est obtenue par un membre extérieur à l'entreprise.<br />
             Ce délit est puni par les autorités de contrôle des marchés et n'est pas à confondre avec l'analyse des informations divulguées publiquement.
         </p>
-        <div class="card mb-3 shadow p-3 mb-5 bg-white rounded" style="max-width: 60%;">
+        <div class="card mb-3 shadow p-3 mb-5 bg-white rounded inception">
             <div class="row no-gutters">
-                <div class="col md-4">
+                <div class="col-md-4 col-sm-12">
                     <img src="assets/AMF.png" class="card-img" alt="">
                 </div>
                 <div class="col-md-8">
@@ -37,7 +37,7 @@
         <p class="card-text">Le placement d'ordre implique des frais. Il en existe plusieurs. Les plus connus sont les frais de courtages qui sont soit une valeur fixe, soit le pourcentage d'un montant investi. Il existe néanmoins des frais moins connus comme la Taxe sur les Transactions Financières (TTF). Elle a pour but de freiner la spéculation et encourage l'investissement à long terme. Elle ne s'applique que sur les achats d'actions de société dont le siège social est situé en France et dont la capitalisation boursière est supérieur à 1 milliard d'euros.</p>
         <div class="card mb-3 shadow p-3 mb-5 bg-white rounded" style="max-width: 70local%;">
             <div class="row no-gutters">
-                <div class="col md-4">
+                <div class="col-md-4 col-sm-12">
                     <img src="assets/carnet_ordre.jpeg" class="card-img" alt="">
                 </div>
                 <div class="col-md-8">
