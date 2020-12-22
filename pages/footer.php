@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="footer_contacter">
-        <form action="pages/contact.php" method="post">
+        <form action="?path=pages/contact.php" method="post">
           <button type="button" class="btn btn-success" name="button">Nous contacter</button>
         </form>
       </div>
