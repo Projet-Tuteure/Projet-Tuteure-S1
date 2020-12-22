@@ -130,7 +130,7 @@
                             <img src="assets/Broker.png" style="border-radius: 10px;" alt="Image de Leonardo Dicaprio dans 'Le loup de Wall Street'" class="image-fluid w-100 rounded"/>
                             <p></p>
                         </div>
-                        <div class="theback pt-5">
+                        <div class="theback pt-5 border border-primary">
                             <p>
                                 <strong>Exemple de courtier en ligne :</strong></br>
                                 </br><a href="https://www.etoro.com/fr/" target="_blank">eToro</a>
@@ -153,11 +153,9 @@
                             <h4>Les Traders</h4>
                             <img src="assets/trader.jpg" alt="image de Trader" class="image-fluid w-100 rounded"/>
                         </div>
-                        <div class="theback pt-5">
+                        <div class="theback pt-5 border border-primary">
                             <p>
-                                Dans les marchés financiers, il existe une multitude de métiers pouvant aller de simples techniciens au gestionnaire de portefeuilles.
-                                <br>Il est ainsi courant de distinguer 3 grandes catégories de métiers dans la finance : le Front-Office, le Middle-Office et le Back-Office.
-                                <br>En bref, plus on est en avant, plus on est exposé aux risques et donc les compétences requises sont plus élevées.
+                              Le trader (aussi appelé opérateur financier) cherche à dégager des gains sur des opérations d'achat et de vente ou de prêt et d'emprunt, tout en minimisant son risque.
                             </p>
                             <button class="btn boutonCollapse collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Voir plus...
@@ -174,7 +172,7 @@
                             <img src="assets/Backoffice.jpg" alt="image de S.A.V." class="image-fluid w-100 rounded"/>
                             <p></p>
                         </div>
-                        <div class="theback pt-5">
+                        <div class="theback pt-5 border border-primary">
                             <p>
                                 <Strong>Exemples de métiers du Back-Office: </Strong></br>
                                 </br>Gestionnaire Back-office
