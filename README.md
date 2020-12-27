@@ -13,6 +13,7 @@ De nombreux sites internet ayant ces caractéristiques sont déjà présents sur
 Nous avons donc fait des recherches et nous avons remarqué que les sites dont les sujets sont récents possèdent les caractéristiques évoquées plus haut.
 Par exemple, les sites Web évoquant les énergies renouvelables, les innovations industrielles ou bien les aliments bio étaient parfaits pour nous.
 Nous nous sommes donc inspirés de l’idée de créer des animations simples, logiques et fluides avec du CSS et du Javascript, et nous sommes parties sur l’idée d’implémenter une seule couleur qui représenterait la totalité du site.
+Le site https://www.coinbase.com/fr/earn par exemple a retenu notre attention, de même le site https://www.clo2.green/ nous a beaucoup plus pour ses animations simples et modernes en css.
 
 ### La structure du site :
 
@@ -20,8 +21,6 @@ Nous avons choisi de partir sur un site simple et ergonomique, il fallait donc q
 
 En plus de cela, la page d’accueil étant la pièce principale puisqu’elle correspond à la première page auquel les internautes auront accès, se devait de connecter et de présenter toutes les autres parties du site sans trop rentrer dans les détails. On a donc choisi de créer des petites vignettes introductives de chaque partie du site Web avec un bouton cliquable menant vers la partie concernée.
 Un lien prénommé ‘contact’ dans la barre de navigation a également été mentionné pour permettre aux utilisateurs de nous contacter pour des informations complémentaires.
-Le site https://www.coinbase.com/fr/earn par exemple a retenu notre attention.
-De même le site https://www.clo2.green/ nous a beaucoup plus pour ses animations simples et modernes en css.
 
 ## Diagramme de navigation
 
