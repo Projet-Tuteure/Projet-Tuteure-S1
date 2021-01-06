@@ -67,9 +67,10 @@ if($form_filed){
           </div>
           <div class="form-group">
             <label>Corps</label>
+            <textarea class="form-control" placeholder="Corps du message" name="mailbody" required="" rows="5">
             <input type="text" class="form-control" placeholder="Corps du message" name="mailbody" required="">
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
         </form>
       </div>
     </div>
